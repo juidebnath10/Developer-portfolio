@@ -1,7 +1,7 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
-} */
+}
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -21,11 +21,13 @@ body{
     padding: 15px 35px;
 }
 
-/* nav related css */
+/* nav related style */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
+    padding-top: 20px;
 }
 
 .nav-title{
@@ -49,3 +51,50 @@ nav a{
     text-decoration: none;
     color: #474747;
 }
+
+/* header releted style */
+.header{
+    background: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner{
+    padding: 30px 40px 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content{
+    max-width: 500px;
+}
+
+.banner .profile-pic{
+    width: 500px;
+}
+
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1em;
+    margin-bottom: 30px;
+}
+
+/* main section style */
+
+/* about section style */
